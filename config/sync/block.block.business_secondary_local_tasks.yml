@@ -1,0 +1,22 @@
+uuid: d1f4a455-de3e-4a3e-85f0-8f69e4cf45c1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - business
+_core:
+  default_config_hash: BCWhood0xXFQYqxFgL1spXdb9KeIuXH1YvTdjIEedDg
+id: business_secondary_local_tasks
+theme: business
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

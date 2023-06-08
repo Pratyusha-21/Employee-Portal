@@ -1,0 +1,49 @@
+uuid: b5ba05c9-4e49-4707-b03c-2ae6e6ef710c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer
+    - field.field.block_content.footer.field_contact_us
+    - field.field.block_content.footer.field_privacy_policy
+    - field.field.block_content.footer.field_skills
+  module:
+    - link
+id: block_content.footer.default
+targetEntityType: block_content
+bundle: footer
+mode: default
+content:
+  field_contact_us:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_privacy_policy:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_skills:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

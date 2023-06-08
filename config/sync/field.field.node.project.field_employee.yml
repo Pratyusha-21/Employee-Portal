@@ -1,0 +1,29 @@
+uuid: b430b062-5bfe-4c1a-aa3b-4d29a8e3338d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employee
+    - node.type.employee
+    - node.type.project
+id: node.project.field_employee
+field_name: field_employee
+entity_type: node
+bundle: project
+label: Employee
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      employee: employee
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

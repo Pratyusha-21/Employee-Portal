@@ -1,0 +1,19 @@
+uuid: dc819541-627a-4c2c-b5e5-fb1416c782c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_middle_name
+    - node.type.article
+id: node.article.field_middle_name
+field_name: field_middle_name
+entity_type: node
+bundle: article
+label: 'Middle Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

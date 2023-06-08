@@ -1,0 +1,28 @@
+uuid: 580fbf24-5aef-4db3-8cbe-f397d99f5c2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.add_new
+    - field.storage.block_content.field_project
+  module:
+    - link
+id: block_content.add_new.field_project
+field_name: field_project
+entity_type: block_content
+bundle: add_new
+label: Project
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/node/add/project'
+    title: 'Add a project'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

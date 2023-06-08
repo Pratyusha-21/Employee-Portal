@@ -1,0 +1,18 @@
+uuid: de220d9e-05a9-47aa-8d16-126bbe9ea2f2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - olivero
+id: pagetitle
+theme: olivero
+region: header
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

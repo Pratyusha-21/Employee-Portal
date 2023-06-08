@@ -1,0 +1,8 @@
+uuid: 4c1fd811-b5b5-4b76-89de-729320c8a8ba
+langcode: en
+status: true
+dependencies: {  }
+id: footer
+label: Footer
+revision: 0
+description: 'Footer for employee portal'

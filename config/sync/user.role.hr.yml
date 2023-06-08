@@ -1,0 +1,15 @@
+uuid: 95721518-6aaf-4f33-bdb3-ca75b1d7bbe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee
+  module:
+    - node
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'create employee content'
+  - 'delete any employee content'

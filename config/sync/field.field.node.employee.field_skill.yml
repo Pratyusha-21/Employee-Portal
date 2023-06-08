@@ -1,0 +1,24 @@
+uuid: 737b9520-bdf7-4de5-a14e-2b31b64d765b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_skill
+    - node.type.employee
+  module:
+    - text
+id: node.employee.field_skill
+field_name: field_skill
+entity_type: node
+bundle: employee
+label: Skill
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<strong>Skills</strong>'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

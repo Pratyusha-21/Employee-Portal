@@ -1,0 +1,39 @@
+uuid: 824f4215-5bde-4061-930f-8351c1a2b21d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sports.body
+    - field.field.node.sports.field_comments
+    - node.type.sports
+  module:
+    - comment
+    - text
+    - user
+id: node.sports.default
+targetEntityType: node
+bundle: sports
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_comments:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: 912b1b76-39d6-44ef-906a-98085dd04f03
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c306d262-e727-4057-94a2-0d2cab80b737'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: footernew
+theme: bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:c306d262-e727-4057-94a2-0d2cab80b737'
+settings:
+  id: 'block_content:c306d262-e727-4057-94a2-0d2cab80b737'
+  label: 'Footer new'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

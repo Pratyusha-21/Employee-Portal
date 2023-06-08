@@ -1,0 +1,60 @@
+uuid: f22cbeee-744f-4d6e-ac79-be7ba2b07f0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.login_webform
+    - field.field.block_content.login_webform.body
+    - field.field.block_content.login_webform.field_create_new_account
+    - field.field.block_content.login_webform.field_login
+    - field.field.block_content.login_webform.field_password
+  module:
+    - link
+    - text
+    - webform
+id: block_content.login_webform.default
+targetEntityType: block_content
+bundle: login_webform
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_create_new_account:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_login:
+    type: webform_entity_reference_entity_view
+    label: hidden
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_password:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

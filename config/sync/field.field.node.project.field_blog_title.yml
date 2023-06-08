@@ -1,0 +1,21 @@
+uuid: fc6a1107-892b-473d-9a3a-d330519fc9d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_title
+    - node.type.project
+  module:
+    - text
+id: node.project.field_blog_title
+field_name: field_blog_title
+entity_type: node
+bundle: project
+label: 'Customer Name'
+description: 'Stores customer name for a project'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

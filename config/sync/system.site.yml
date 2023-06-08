@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 63d9d78e-f668-424a-84a8-dced329d35c9
+name: 'Employee Portal'
+mail: pratyusha.goswami@innoraft.com
+slogan: 'Drupal Site'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

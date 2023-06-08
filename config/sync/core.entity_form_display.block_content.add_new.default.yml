@@ -1,0 +1,58 @@
+uuid: 063624e4-7200-4842-a67c-cd16d225501f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.add_new
+    - field.field.block_content.add_new.field_blog
+    - field.field.block_content.add_new.field_employee
+    - field.field.block_content.add_new.field_project
+    - field.field.block_content.add_new.field_skills
+  module:
+    - link
+id: block_content.add_new.default
+targetEntityType: block_content
+bundle: add_new
+mode: default
+content:
+  field_blog:
+    type: link_default
+    weight: 28
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_employee:
+    type: link_default
+    weight: 29
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_project:
+    type: link_default
+    weight: 30
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_skills:
+    type: link_default
+    weight: 31
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

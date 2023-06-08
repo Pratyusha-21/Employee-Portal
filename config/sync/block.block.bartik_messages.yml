@@ -1,0 +1,22 @@
+uuid: 9be1d444-8a75-4681-93fb-4ed35ffde9d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: WvPhI8OwllG0gE69-F8qL3ai3nd5SbYD6JpmEuZcyok
+id: bartik_messages
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

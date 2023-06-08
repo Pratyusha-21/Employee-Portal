@@ -1,0 +1,8 @@
+uuid: 2bdc7522-20d4-4cd9-b6c9-4aa495a98e41
+langcode: en
+status: true
+dependencies: {  }
+id: add_new
+label: 'Add new'
+revision: 0
+description: 'Add new item'

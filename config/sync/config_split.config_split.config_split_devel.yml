@@ -1,0 +1,19 @@
+uuid: 85476cd6-c2aa-47c6-9325-780282ea0900
+langcode: en
+status: true
+dependencies: {  }
+id: config_split_devel
+label: 'Config Split Devel'
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/development
+module:
+  devel: 0
+  devel_generate: 0
+theme: {  }
+complete_list:
+  - devel.settings
+  - devel.toolbar.settings
+partial_list: {  }

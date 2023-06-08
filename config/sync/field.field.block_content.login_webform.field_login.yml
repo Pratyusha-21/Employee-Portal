@@ -1,0 +1,32 @@
+uuid: 7ca55c14-48be-4a5f-a7e0-f07b384b7b5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.login_webform
+    - field.storage.block_content.field_login
+    - webform.webform.login
+  module:
+    - webform
+id: block_content.login_webform.field_login
+field_name: field_login
+entity_type: block_content
+bundle: login_webform
+label: Login
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 9f460546-06b4-46f9-b266-a2ae96f8408e
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

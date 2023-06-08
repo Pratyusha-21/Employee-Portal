@@ -1,0 +1,21 @@
+uuid: 33852674-8897-4602-8c69-6e72079027de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employee_company
+    - node.type.employee
+  module:
+    - text
+id: node.employee.field_employee_company
+field_name: field_employee_company
+entity_type: node
+bundle: employee
+label: 'Employee Company'
+description: 'Stores the organisation name of the employee'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
