@@ -1,0 +1,8 @@
+uuid: ec6b7d4c-54b5-46b7-922a-e1dc7f12165a
+langcode: en
+status: true
+dependencies: {  }
+id: devel-wafracrow
+label: Noc
+description: 'Description of Noc'
+locked: false

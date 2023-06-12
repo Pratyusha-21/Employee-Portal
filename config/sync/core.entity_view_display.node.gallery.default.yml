@@ -1,0 +1,57 @@
+uuid: 70d72372-0baa-43ba-ab6a-09252ab121d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_images
+    - field.field.node.gallery.field_video_upload
+    - node.type.gallery
+  module:
+    - file
+    - image
+    - text
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_images:
+    type: image
+    label: above
+    settings:
+      image_link: file
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_video_upload:
+    type: file_video
+    label: above
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+      muted: false
+      width: 640
+      height: 480
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

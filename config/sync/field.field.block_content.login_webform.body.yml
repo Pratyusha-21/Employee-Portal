@@ -1,0 +1,23 @@
+uuid: 64c2e426-9f43-4700-ae68-b8311dd65523
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.login_webform
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.login_webform.body
+field_name: body
+entity_type: block_content
+bundle: login_webform
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

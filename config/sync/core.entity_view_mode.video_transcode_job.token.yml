@@ -1,0 +1,10 @@
+uuid: 8dde0780-ab85-4607-815d-ccc9a936589a
+langcode: en
+status: true
+dependencies:
+  module:
+    - video_transcode
+id: video_transcode_job.token
+label: Token
+targetEntityType: video_transcode_job
+cache: true

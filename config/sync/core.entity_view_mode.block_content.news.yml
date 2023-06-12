@@ -1,0 +1,10 @@
+uuid: 32fc009e-2ae9-4c10-9aa3-a2cbe8ccc236
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.news
+label: news
+targetEntityType: block_content
+cache: true

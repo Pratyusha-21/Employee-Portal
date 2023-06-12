@@ -1,0 +1,8 @@
+uuid: 7b84a7a3-38e6-416a-95f5-ab8a71484acb
+langcode: en
+status: true
+dependencies: {  }
+name: Skills
+vid: skills
+description: 'Stores skills of an employee'
+weight: 0

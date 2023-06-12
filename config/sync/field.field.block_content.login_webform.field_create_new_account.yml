@@ -1,0 +1,23 @@
+uuid: 8fad9bb4-49fa-4183-9582-64d507e35f89
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.login_webform
+    - field.storage.block_content.field_create_new_account
+  module:
+    - link
+id: block_content.login_webform.field_create_new_account
+field_name: field_create_new_account
+entity_type: block_content
+bundle: login_webform
+label: 'Create new account'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

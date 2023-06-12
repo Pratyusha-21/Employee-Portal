@@ -1,0 +1,21 @@
+uuid: c77e5600-bc78-4ee9-8b89-dfe6505c3fd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_background
+    - node.type.employee
+  module:
+    - text
+id: node.employee.field_background
+field_name: field_background
+entity_type: node
+bundle: employee
+label: Background
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

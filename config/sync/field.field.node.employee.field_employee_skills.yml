@@ -1,0 +1,29 @@
+uuid: 0b220b15-ef6f-4f15-a75c-50a81f3f3cd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employee_skills
+    - node.type.employee
+    - taxonomy.vocabulary.skills
+id: node.employee.field_employee_skills
+field_name: field_employee_skills
+entity_type: node
+bundle: employee
+label: 'Employee Skills'
+description: 'Skills of the employee'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      skills: skills
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: news_category
+field_type: entity_reference

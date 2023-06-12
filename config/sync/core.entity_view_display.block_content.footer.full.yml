@@ -1,0 +1,54 @@
+uuid: 26c770a1-db77-40ff-a056-32536179db84
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer
+    - core.entity_view_mode.block_content.full
+    - field.field.block_content.footer.field_contact_us
+    - field.field.block_content.footer.field_privacy_policy
+    - field.field.block_content.footer.field_skills
+  module:
+    - link
+id: block_content.footer.full
+targetEntityType: block_content
+bundle: footer
+mode: full
+content:
+  field_contact_us:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_privacy_policy:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_skills:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

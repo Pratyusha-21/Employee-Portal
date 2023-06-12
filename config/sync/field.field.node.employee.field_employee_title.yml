@@ -1,0 +1,21 @@
+uuid: 385cd3cb-b91a-4799-babd-8e0e20069169
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_employee_title
+    - node.type.employee
+  module:
+    - text
+id: node.employee.field_employee_title
+field_name: field_employee_title
+entity_type: node
+bundle: employee
+label: 'Employee Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
